@@ -29,6 +29,22 @@ You can install the dependencies using pip:
 ```bash
 pip install pandas joblib seaborn matplotlib scikit-learn
 ```
+## File Structure
+```
+Spam-Classifier/
+│
+├── model/
+│   ├── spam_classifier_model.joblib    # Trained model file
+│   └── tfidf_vectorizer.joblib        # TF-IDF vectorizer
+│
+├── data/
+│   └── emailsmain.csv                 # Dataset for training and testing
+│
+├── spam_classifier_gui.py             # Main GUI script for the spam classifier
+├── predictions_log.csv                # Log file to store predictions with timestamps
+├── requirements.txt                  # List of required dependencies
+└── README.md                         # Project documentation (Readme)
+```
 
 ## Installation
 
